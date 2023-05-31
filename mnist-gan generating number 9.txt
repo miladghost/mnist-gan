@@ -63,7 +63,7 @@ plt.imshow(X[0].reshape(28,28), cmap="gray")
 plt.xlabel(discrim.predict(X[15].reshape(1,28,28,1)))
 
 epochs=100
-batch_size=2048
+batch_size=1024
 half_batch=batch_size//2
 n=100
 losses=[]
